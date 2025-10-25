@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0090)file:///C:/Users/shant/AppData/Local/Microsoft/Windows/INetCache/IE/5PW33VMK/Movie[1].html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-16LE">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Movie Mania</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: #121212;
+      color: #eee;
+    }
+    header {
+      background-color: #e50914;
+      padding: 20px 0;
+      text-align: center;
+      font-size: 2.5rem;
+      font-weight: bold;
+      letter-spacing: 2px;
+      color: white;
+    }
+    main {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      color: #e50914;
+      margin-bottom: 15px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    .movies-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+    }
+    .movie-card {
+      background-color: #1e1e1e;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.7);
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+    .movie-card:hover {
+      transform: scale(1.05);
+    }
+    .movie-poster {
+      width: 100%;
+      height: 270px;
+      object-fit: cover;
+    }
+    .movie-info {
+      padding: 15px;
+    }
+    .movie-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin: 0 0 10px;
+    }
+    .movie-year {
+      font-size: 0.9rem;
+      color: #bbb;
+    }
+    footer {
+      text-align: center;
+      padding: 15px 0;
+      background-color: #e50914;
+      color: white;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+      font-size: 14px;
+    }
+    @media (max-width: 600px) {
+      .movies-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>Movie Mania</header>
+  <main>
+    <section>
+      <h2>Featured Movies</h2>
+      <div class="movies-grid">
+        <div class="movie-card">
+          <img src="./Movie Mania_files/81d9kA3fHPL._AC_SY679_.jpg" alt="Inception" class="movie-poster">
+          <div class="movie-info">
+            <h3 class="movie-title">Inception</h3>
+            <p class="movie-year">2010</p>
+          </div>
+        </div>
+        <div class="movie-card">
+          <img src="./Movie Mania_files/71niXI3lxlL._AC_SY679_.jpg" alt="Interstellar" class="movie-poster">
+          <div class="movie-info">
+            <h3 class="movie-title">Interstellar</h3>
+            <p class="movie-year">2014</p>
+          </div>
+        </div>
+        <div class="movie-card">
+          <img src="./Movie Mania_files/51NiGlapXlL._AC_SY679_.jpg" alt="The Dark Knight" class="movie-poster">
+          <div class="movie-info">
+            <h3 class="movie-title">The Dark Knight</h3>
+            <p class="movie-year">2008</p>
+          </div>
+        </div>
+        <div class="movie-card">
+          <img src="./Movie Mania_files/51oD7pe0giL._AC_SY679_.jpg" alt="Parasite" class="movie-poster">
+          <div class="movie-info">
+            <h3 class="movie-title">Parasite</h3>
+            <p class="movie-year">2019</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>About Movies</h2>
+      <p>
+        Movies are a powerful form of storytelling that combine visuals, sound, and performance to entertain, inform, and inspire audiences around the world. From thrilling blockbusters to heartfelt dramas, movies connect us through shared experiences and emotions.
+      </p>
+    </section>
+  </main>
+  <footer>© 2025 Movie Mania</footer>
+
+
+</body></html>
